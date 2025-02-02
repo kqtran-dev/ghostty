@@ -4,3 +4,4 @@ background-blur-radius = 20
 macos-titlebar-style = hidden
 
 initial-command = ~/bin/tmux-run-once.sh
+shell-integration-features = sudo
