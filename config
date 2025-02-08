@@ -3,5 +3,26 @@ background-opacity = 0.8
 background-blur-radius = 20
 macos-titlebar-style = hidden
 
+font-family = "Hack Nerd Font Mono"
+font-size = 18
 initial-command = ~/bin/tmux-run-once.sh
 shell-integration-features = sudo
+
+shell-integration = zsh
+mouse-hide-while-typing = true
+
+keybind = ctrl+s>a=select_all
+
+keybind = ctrl+s>w>n=new_window
+
+keybind = ctrl+s>w>d=toggle_window_decorations
+
+# tabs
+keybind = ctrl+s>t>n=new_tab
+keybind = ctrl+s>p>n=new_split:auto
+keybind = alt+[=previous_tab
+keybind = alt+]=next_tab
+
+
+
+
