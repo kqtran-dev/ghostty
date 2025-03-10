@@ -23,6 +23,8 @@ keybind = ctrl+s>p>n=new_split:auto
 keybind = alt+[=previous_tab
 keybind = alt+]=next_tab
 
-
-
+#cursor
+cursor-style-blink = false
+cursor-style = bar
+shell-integration-features = cursor
 
