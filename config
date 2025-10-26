@@ -4,6 +4,7 @@ background-blur-radius = 30
 macos-titlebar-style = hidden
 
 font-family = "Jetbrains Nerd Font Mono"
+font-feature = -calt, -dlig, -liga
 font-size = 18
 initial-command = ~/bin/tmux-run-once.sh
 shell-integration-features = sudo
